@@ -6,4 +6,4 @@ RUN pip install -r ./requirements.txt
 WORKDIR /web
 ENTRYPOINT ["python"]
 WORKDIR /web
-CMD ["/web/Database/app.py"]
+CMD ["/web/Database/database.py"]
